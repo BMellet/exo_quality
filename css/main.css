@@ -1,0 +1,49 @@
+body
+{
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+h1
+{
+    text-align: center;
+    font-weight: 300;
+    font-size: 40px;
+}
+nav
+{
+    position: sticky;
+    top: 0px;
+    width: 100%;
+    z-index: 9999;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #EF5350;
+    
+}
+nav  a:link,nav  a:hover,nav  a:active,nav  a:visited
+{
+    text-decoration: none;
+    color:whitesmoke;
+    height: inherit;
+    text-align:center; 
+    width: 10%;
+    outline: none;
+    font-size: 1em;
+    
+    
+
+}
+nav  a:hover
+{
+    font-size: 0.95em;
+    box-shadow: inset 1px 0px 5px 1px #B71C1C;
+}
+
+/*  FORM CSS */
+
+.input-field label {
+    color: #000;
+  }
